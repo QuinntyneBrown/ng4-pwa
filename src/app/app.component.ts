@@ -5,7 +5,4 @@ import {Component} from "@angular/core";
     styles: [require("./app.component.scss")],
     selector: "ce-app"
 })
-export class AppComponent {    
-    constructor() { }
-    
-}
+export class AppComponent { }

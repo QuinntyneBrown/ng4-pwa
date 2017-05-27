@@ -74,9 +74,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="dist\app.js" />
+    <Content Include="dist\vendor.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
+    <Content Include="dist\worker-basic.min.js" />
+    <Content Include="dist\app.js.map" />
+    <Content Include="dist\vendor.js.map" />
+    <Content Include="webpack.config.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -93,7 +99,6 @@
       <DependentUpon>app.component.ts</DependentUpon>
     </Content>
     <Content Include="Web.config" />
-    <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\app\app.component.ts" />

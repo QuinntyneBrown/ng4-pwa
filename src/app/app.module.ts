@@ -6,7 +6,7 @@ import { AppComponent } from "./app.component";
 @NgModule({
     declarations: [AppComponent],
     imports: [
-        BrowserModule,
+        BrowserModule.withServerTransition({appId:"ng4-pwa"}),
         HttpModule
     ],
     bootstrap: [AppComponent]
